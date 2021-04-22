@@ -46,6 +46,11 @@ a{
     border-style: solid;
 }
 
+.MainContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
 
 .picOfUser{
     width: 175px;
@@ -70,6 +75,7 @@ a{
 }
 
 .blueBar{
+    flex:1;
     background-color: rgb(128, 191, 233);
     width: 951px;
     height: 150px;
@@ -84,7 +90,7 @@ a{
     background-color: rgb(255, 255, 255);
     width: 945px;
     height: 450px;
-    margin-left: 400px;
+    margin-left: 0px;
     border: 3px solid rgb(179, 179, 179);
 }
 
@@ -109,38 +115,20 @@ a{
     margin-left: 130px;
 }
 #profileCard{
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
-.connectionRequests{
-    display: inline-block;
+.secondPart{
+    flex: 1;
 }
-.GreyBar{
-    display: inline-block;
-    width: 475px;
-    height: 75px;
-    background-color: gray;
-    position:relative;
-    bottom: 445px;
-    margin-left: 40px;
-}
-.GreyBar{
-    display: inline-block;
-    width: 475px;
-    height: 75px;
-    background-color: gray;
-    position:relative;
-    bottom: 470px;
-    margin-left: 40px;
-}
-.ConReq{
+.ConnectReq{
     color: white;
-    margin-left: 120px;
+    font-size: 1.5rem;
 }
 
-.GreyBarList{
+.greyBar{
     display: inline-block;
-    width: 475px;
-    height: 375px;
-    background-color: gray;
-    margin-left: 30px;
+    background-color: rgb(102, 102, 102);
+    width: 150px;
+    height: 150px;
 }
