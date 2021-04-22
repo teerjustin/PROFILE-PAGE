@@ -1,0 +1,146 @@
+.nav{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    width: 2500px;
+}
+
+.nav-title{
+    color: white;
+    display: inline-block;
+    margin-left: 410px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    margin-left: 100px;
+    padding-right: 30px;
+}
+.nav-links{
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+} 
+
+.active{
+    color:rgb(219, 215, 215)
+}
+
+.btn{
+    font-size: 1.6rem;
+    color: white;
+    background-color:rgb(54, 125, 167);
+    width: 150px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+    margin-left: 500px;
+    border-style: solid;
+}
+
+
+.picOfUser{
+    width: 175px;
+    position: absolute;
+    top: 250px;
+    left:500px;
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 50%;
+}
+.mark{
+    width: 20px;
+    position: absolute;
+    top: 520px;
+    left:515px;
+}
+
+.gear{
+    width: 20px;
+    position: absolute;
+    top: 695px;
+    left:510px;
+}
+
+.blueBar{
+    background-color: rgb(128, 191, 233);
+    width: 951px;
+    height: 150px;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.whiteBackground{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 945px;
+    height: 450px;
+    margin-left: 400px;
+    border: 3px solid rgb(179, 179, 179);
+}
+
+.playerCardh1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.playerCardh2{
+    font-size: 2.5rem;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.playerCardh4{
+    font-size: 1.3rem;
+    margin-left: 100px;
+}
+.editProfile{
+    color: blue;
+    text-decoration: underline blue;
+    margin-left: 130px;
+}
+#profileCard{
+    display: inline-block;
+}
+.connectionRequests{
+    display: inline-block;
+}
+.GreyBar{
+    display: inline-block;
+    width: 475px;
+    height: 75px;
+    background-color: gray;
+    position:relative;
+    bottom: 445px;
+    margin-left: 40px;
+}
+.GreyBar{
+    display: inline-block;
+    width: 475px;
+    height: 75px;
+    background-color: gray;
+    position:relative;
+    bottom: 470px;
+    margin-left: 40px;
+}
+.ConReq{
+    color: white;
+    margin-left: 120px;
+}
+
+.GreyBarList{
+    display: inline-block;
+    width: 475px;
+    height: 375px;
+    background-color: gray;
+    margin-left: 30px;
+}
