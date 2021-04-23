@@ -262,7 +262,7 @@ h1{
     justify-content: center;
     display: flex;
 }
-}
+
 .connectReq{
     margin-top: 45px;
 }
@@ -287,4 +287,38 @@ h1{
     border: 2px gray;
     border-style: solid;
     text-align: center;
+}
+
+.adriendPic, .annePic, .alaynePic, .arryPic{
+    width: 70px;
+    position: absolute;
+    left: 1550px;
+    margin-top: 25px;
+}
+.annePic{
+    margin-top: 200px;
+}
+.alaynePic{
+    margin-top: 400px;
+}
+.arryPic{
+    margin-top: 600px;
+}
+
+.BotbotConnectName, .BotbotConnectName2, .BotbotConnectName3, .BotbotConnectName4{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    position:absolute;
+}
+
+
+.BotbotConnectName2{
+    margin-top: 200px;
+}
+.BotbotConnectName3{
+    margin-top: 400px;
+}
+.BotbotConnectName4{
+    margin-top: 600px;
 }
