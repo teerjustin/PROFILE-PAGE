@@ -51,8 +51,8 @@ a{
 }
 
 .ProfileCard{
-    display: flex;
     flex-direction: column;
+    height: 2000px;
 }
 /* .flexbox-item{
     width: 200px;
@@ -126,7 +126,7 @@ a{
 }
 
 .ConnectRequest{
-    height: 2000px;
+    height: 1400px;
 }
 
 
@@ -335,4 +335,11 @@ h1{
 
 .viewmore{
     margin-left: 50px;
+}
+
+.topBarOfEducation{
+    margin-top: 100px;
+    background-color: grey;
+    margin-left: 300px;
+    height: 75  px;
 }
