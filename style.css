@@ -79,8 +79,13 @@ a{
     background-color: blue;
     margin-left: 200px;
     margin-top: 150px;
-    min-height: 200px;
+    min-height: 100px;
     width: 500px;
+    color: white;
+}
+h1{
+    text-align: center;
+    vertical-align:middle;
 }
 .botConnect{
     background-color: blanchedalmond;
