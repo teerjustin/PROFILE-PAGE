@@ -72,7 +72,6 @@ a{
     border-radius: 10px 10px 0px 0px;
 }
 .botBar{
-    background-color: blanchedalmond;
     min-height: 600px;
     margin-left: 300px;
     width: 1000px;
@@ -131,13 +130,34 @@ a{
 
 
 .topConnect{
-    background-color: blue;
+    background-color: rgb(35, 35, 36);
     margin-left: 200px;
     margin-top: 150px;
     min-height: 100px;
     width: 500px;
     color: white;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
 }
+
+.connectReq{
+    margin-top: 45px;
+}
+
+.number{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-right: 30px;
+}
+
+
 
 h1{
     vertical-align:middle;
