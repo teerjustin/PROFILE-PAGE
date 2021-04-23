@@ -125,7 +125,9 @@ a{
     text-decoration: underline blue;
 }
 
-
+.ConnectRequest{
+    height: 2000px;
+}
 
 
 
@@ -247,4 +249,32 @@ h1{
     margin-left: 400px;
     position: absolute;
     top: 525px;
+}
+
+.topOfBottomConnect{
+    background-color: rgb(35, 35, 36);
+    margin-left: 200px;
+    margin-top: 150px;
+    min-height: 100px;
+    width: 500px;
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+}
+}
+.connectReq{
+    margin-top: 45px;
+}
+
+.YourFriends{
+    background-color: gray;
+    width: 75px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-right: 30px;
 }
