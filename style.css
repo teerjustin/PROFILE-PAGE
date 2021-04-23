@@ -62,18 +62,73 @@ a{
     background-color: rgb(0, 0, 0);
 } */
 .topBar{
-    background-color: blue;
+    background-color: rgb(88, 139, 155);
     margin-left: 300px;
     margin-top: 150px;
     min-height: 200px;
     width: 1000px;
+    border: 2px rgb(88, 139, 155);
+    border-style: solid;
+    border-radius: 10px 10px 0px 0px;
 }
 .botBar{
     background-color: blanchedalmond;
     min-height: 600px;
     margin-left: 300px;
     width: 1000px;
+    border: 2px gray;
+    border-style: solid;
 }
+
+.userPic{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    border: 2px gray;
+    border-style:solid;
+    border-radius: 50%;
+}
+
+.bigName{
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 4rem;
+}
+
+.mapMarker{
+    width: 38px;
+    position: absolute;
+    top: 675px;
+    left: 410px;
+}
+
+
+.location{
+    margin-left: 170px;
+    font-size: 2.6rem;
+}
+
+.botInfo{
+    margin-left: 100px;
+    font-size: 1.8rem;
+}
+
+.gear{
+    width: 38px;
+    position: absolute;
+    top: 915px;
+    left: 410px;
+}
+.editprof{
+    margin-left:170px;
+    font-size: 1.8rem;
+    color:blue;
+    text-decoration: underline blue;
+}
+
+
+
+
 
 .topConnect{
     background-color: blue;
@@ -83,8 +138,8 @@ a{
     width: 500px;
     color: white;
 }
+
 h1{
-    text-align: center;
     vertical-align:middle;
 }
 .botConnect{
