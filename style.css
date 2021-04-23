@@ -162,10 +162,61 @@ a{
 h1{
     vertical-align:middle;
 }
+
 .botConnect{
     background-color: blanchedalmond;
     min-height: 300px;
     margin-left: 200px;
     width: 500px;
+    border: 2px gray;
+    border-style: solid;
+    text-align: center;
 }
 
+.checkmark{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 300px;
+}
+
+.decline{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 400px;
+    position: absolute;
+    top: 373px;
+}
+
+.botConnectName, .botConnectName2{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    position:absolute;
+}
+
+
+.botConnectName2{
+    margin-top: 70px;
+}
+
+.toddPic, .philPic{
+    width: 70px;
+    position: absolute;
+    left: 1550px;
+    margin-top: 25px;
+}
+.philPic{
+    margin-top: 40px;
+}
