@@ -46,89 +46,328 @@ a{
     border-style: solid;
 }
 
-.MainContent{
+.container{
     display: flex;
-    align-items: center;
-    justify-content: space-between
 }
 
-.picOfUser{
-    width: 175px;
+.ProfileCard{
+    flex-direction: column;
+    height: 2000px;
+}
+/* .flexbox-item{
+    width: 200px;
+    height: 200px;
+    margin:10px;
+    border: 3px solid black;
+    background-color: rgb(0, 0, 0);
+} */
+.topBar{
+    background-color: rgb(88, 139, 155);
+    margin-left: 300px;
+    margin-top: 150px;
+    min-height: 200px;
+    width: 1000px;
+    border: 2px rgb(88, 139, 155);
+    border-style: solid;
+    border-radius: 10px 10px 0px 0px;
+}
+.botBar{
+    min-height: 600px;
+    margin-left: 300px;
+    width: 1000px;
+    border: 2px gray;
+    border-style: solid;
+}
+
+.userPic{
     position: absolute;
-    top: 250px;
-    left:500px;
-    border: 3px solid rgb(179, 179, 179);
+    top: 300px;
+    left: 400px;
+    border: 2px gray;
+    border-style:solid;
     border-radius: 50%;
 }
-.mark{
-    width: 20px;
+
+.bigName{
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 4rem;
+}
+
+.mapMarker{
+    width: 38px;
     position: absolute;
-    top: 520px;
-    left:515px;
+    top: 675px;
+    left: 410px;
+}
+
+
+.location{
+    margin-left: 170px;
+    font-size: 2.6rem;
+}
+
+.botInfo{
+    margin-left: 100px;
+    font-size: 1.8rem;
 }
 
 .gear{
-    width: 20px;
+    width: 38px;
     position: absolute;
-    top: 695px;
-    left:510px;
+    top: 915px;
+    left: 410px;
 }
-
-.blueBar{
-    flex:1;
-    background-color: rgb(128, 191, 233);
-    width: 951px;
-    height: 150px;
-    margin-left: 400px;
-    margin-right: auto;
-    margin-top: 100px;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.whiteBackground{
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    width: 945px;
-    height: 450px;
-    margin-left: 0px;
-    border: 3px solid rgb(179, 179, 179);
-}
-
-.playerCardh1{
-    font-size: 4rem;
-    margin-bottom: 0px;
-    margin-top: 75px;
-    margin-left: 100px;
-}
-.playerCardh2{
-    font-size: 2.5rem;
-    margin-left: 150px;
-    margin-top: 20px;
-}
-.playerCardh4{
-    font-size: 1.3rem;
-    margin-left: 100px;
-}
-.editProfile{
-    color: blue;
+.editprof{
+    margin-left:170px;
+    font-size: 1.8rem;
+    color:blue;
     text-decoration: underline blue;
-    margin-left: 130px;
-}
-#profileCard{
-    display: flex;
-    align-items: center;
-}
-.secondPart{
-    flex: 1;
-}
-.ConnectReq{
-    color: white;
-    font-size: 1.5rem;
 }
 
-.greyBar{
-    display: inline-block;
-    background-color: rgb(102, 102, 102);
-    width: 150px;
-    height: 150px;
+.ConnectRequest{
+    height: 1400px;
 }
+
+
+
+.topConnect{
+    background-color: rgb(35, 35, 36);
+    margin-left: 200px;
+    margin-top: 150px;
+    min-height: 100px;
+    width: 500px;
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+}
+
+.connectReq{
+    margin-top: 45px;
+}
+
+.number{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-right: 30px;
+}
+
+
+
+h1{
+    vertical-align:middle;
+}
+
+.botConnect{
+    background-color: blanchedalmond;
+    min-height: 300px;
+    margin-left: 200px;
+    width: 500px;
+    border: 2px gray;
+    border-style: solid;
+    text-align: center;
+}
+
+.checkmark{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 300px;
+}
+
+.decline{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 400px;
+    position: absolute;
+    top: 373px;
+}
+
+.botConnectName, .botConnectName2{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    position:absolute;
+}
+
+
+.botConnectName2{
+    margin-top: 70px;
+}
+
+.toddPic, .philPic{
+    width: 70px;
+    position: absolute;
+    left: 1550px;
+    margin-top: 25px;
+}
+.philPic{
+    margin-top: 60px;
+}
+
+.checkmark2{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 300px;
+    position: absolute;
+    top: 525px;
+}
+
+.decline2{
+    background-color: gray;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-left: 400px;
+    position: absolute;
+    top: 525px;
+}
+
+.topOfBottomConnect{
+    background-color: rgb(35, 35, 36);
+    margin-left: 200px;
+    margin-top: 150px;
+    min-height: 100px;
+    width: 500px;
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+}
+
+.connectReq{
+    margin-top: 45px;
+}
+
+.YourFriends{
+    background-color: gray;
+    width: 75px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    border: 3px solid #000;
+    margin-right: 30px;
+}
+
+.botConnect2{
+    background-color: blanchedalmond;
+    min-height: 700px;
+    margin-left: 200px;
+    width: 500px;
+    border: 2px gray;
+    border-style: solid;
+    text-align: center;
+}
+
+.adriendPic, .annePic, .alaynePic, .arryPic{
+    width: 70px;
+    position: absolute;
+    left: 1550px;
+    margin-top: 25px;
+}
+.annePic{
+    margin-top: 200px;
+}
+.alaynePic{
+    margin-top: 400px;
+}
+.arryPic{
+    margin-top: 600px;
+}
+
+.BotbotConnectName, .BotbotConnectName2, .BotbotConnectName3, .BotbotConnectName4{
+    margin-left: 150px;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    position:absolute;
+}
+
+
+.BotbotConnectName2{
+    margin-top: 200px;
+}
+.BotbotConnectName3{
+    margin-top: 400px;
+}
+.BotbotConnectName4{
+    margin-top: 600px;
+}
+
+.viewMore{
+    color: blue;
+    text-decoration: blue underline;
+    background-color: white;
+    border: 2px gray;
+    border-style: solid;
+    margin-left: 200px;
+    width: 500px;
+}
+
+.viewmore{
+    margin-left: 50px;
+}
+
+.topBarOfEducation{
+    margin-top: 100px;
+    background-color: grey;
+    margin-left: 300px;
+    height: 75px;
+}
+.topBarTitle{
+    margin-left: 30px;
+    color: white;
+    line-height: 80px;
+}
+
+.bodyOfEducation{
+    margin-bottom: 100px;
+    min-height: 1200px;
+    margin-left: 300px;
+    width: 1000px;
+    border: 2px gray;
+    border-style: solid;
+}
+
+.codingDojo,.date,.educationInfo{
+    margin-left: 30px;
+}
+.codingDojo{
+    font-size: 3rem;
+}
+.date{
+    color: rgb(185, 185, 185);
+}
+.date,.educationInfo{
+    font-size: 2rem;
+}
+
